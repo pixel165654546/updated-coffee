@@ -1,0 +1,23 @@
+.cart-btn{
+    text-align: center;
+    padding-bottom: 30rem;
+}
+
+.checkout-btn {
+    width: 20%;
+    margin-top: 2rem;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+p {
+    text-align: center;
+    padding: center;
+    padding-top: 20rem;
+    font-size: 1.5rem;  
+}

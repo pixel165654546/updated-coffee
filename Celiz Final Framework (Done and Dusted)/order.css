@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #99a98f;
+    --decent-color: #d6e8db;
+    --accent-color: #fff;
+    --secondary-color: rgb(9, 189, 9);
+    --font-family: 'Poppins', sans-serif;
+    --text-color: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background: rgb(219, 213, 213);
+    padding: 0 9%;
+}
+
+.header {
+    padding: 1rem 0;
+}
+
+.menu--icons {
+    padding-top: 1rem;
+}
+
+.menu--icons i {
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--decent-color);
+}
+
+.fa-cart-shopping {
+    background: transparent !important;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cover {
+    background-image: url('ordermain.jpg');
+    background-size: cover;
+    height: 25vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cover-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.section-heading {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 1rem 0 10px 0;
+    color: var(--text-color);
+}
+
+.card--list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 1rem;
+    border-radius: 10px;
+    background: var(--accent-color);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.card img {
+    width: 100%;
+}
+
+.cart-menu{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cart-items{
+    text-align: center;
+}
+
+.total--amount{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.cart-btn{
+    text-align: center;
+}
+
+.checkout-btn {
+    width: 20%;
+    margin-top: 2rem;
+    background: var(--secondary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.card--price {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.card--price .price {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
